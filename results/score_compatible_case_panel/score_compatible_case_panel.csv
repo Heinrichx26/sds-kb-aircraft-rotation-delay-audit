@@ -1,0 +1,9 @@
+type,carrier,path,delay,label,risk,severe_distance,normal_distance,margin,active_concepts,nearest_severe,nearest_normal
+PE-KB severe,AA,DFW--JFK--DFW,186.0,1,1.0,2.6336303217045156,5.391139675185847,2.757509353481331,Buffer; Upstream; Shortfall; Tight turn,"LAS--OKC--LAS, 150 min","SLC--BWI--LGB, 0 min"
+PE-KB severe,AA,DFW--ONT--DFW,85.0,1,1.0,0.761897697084694,3.8951568822158684,3.133259185131174,Buffer; Recurrence; Upstream; Shortfall; Tight turn,"DFW--PSP--DFW, 75 min","MDW--MSY--DEN, 18 min"
+PE-KB severe,AA,CLT--TPA--PHX,114.0,1,1.0,1.8034568419690902,4.932125943008499,3.1286691010394088,Buffer; Recurrence; Upstream; Shortfall; Tight turn,"DAL--BWI--PHX, 77 min","MDW--MSY--DEN, 18 min"
+LightGBM severe,UA,HNL--IAH--HNL,105.0,1,1.0,4.7193147792485375,8.65831551000843,3.9390007307598927,Buffer; Recurrence; Upstream; Shortfall; Tight turn,"ORD--ANC--ORD, 95 min","LGB--OAK--OGG, 0 min"
+LightGBM severe,AA,CLT--MSP--CLT,116.0,1,0.9941434846266471,1.0286040693427583,5.162414883749731,4.1338108144069725,Buffer; Recurrence; Congested; Upstream; Shortfall; Tight turn,"BZN--DEN--SFO, 112 min","ICT--ORD--MHK, 0 min"
+LightGBM severe,AA,CLT--MSP--CLT,79.0,1,0.9941434846266471,1.0287549247772554,3.962320022766737,2.9335650979894816,Buffer; Recurrence; Upstream; Shortfall; Tight turn,"DEN--DFW--DEN, 82 min","ICT--ORD--MHK, 0 min"
+Boundary normal,UA,SMF--DEN--PHX,20.0,0,0.43010752688172044,1.5639985174000448,1.5640219972885112,2.3479888466404475e-05,Upstream; Tight turn,"SFO--DEN--SFO, 31 min","LAX--ORD--IAH, 22 min"
+Boundary normal,OO,MOT--MSP--SDF,0.0,0,0.16585365853658537,1.1761349128650558,1.1762020514643923,6.713859933649147e-05,low-intensity concepts,"ATL--MIA--CHS, 51 min","STL--PHL--BGR, 0 min"

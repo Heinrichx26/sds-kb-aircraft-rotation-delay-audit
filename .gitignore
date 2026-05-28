@@ -1,0 +1,29 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Raw and intermediate data are intentionally excluded.
+data/raw_open/
+data/interim/
+*.zip
+*.parquet
+
+# Large prediction-level exports and local logs.
+results/**/predictions*
+results/**/path_panel*
+results/**/flight_records*
+*.log
+
+# Manuscript and submission artifacts stay outside this repository.
+article/
+*.docx
+*.pptx
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+

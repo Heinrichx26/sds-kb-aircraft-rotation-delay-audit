@@ -1,0 +1,4 @@
+route,splits,rows,positives,mean_top10_capture,mean_auc,mean_pr_auc,mean_brier,mean_concept_count,mean_feature_count,passes_pr_088,passes_pr_085_t10_0965,passes_action_t10_097
+R5 severe-delay simulation knowledge base,11,4077709,202145,0.9866863715866834,0.9945983170472875,0.9046386061812055,0.014394542762940454,3.0,23.0,True,True,True
+Recovery shortfall reference,11,4077709,202145,0.9426708261694311,0.9687628641545415,0.751917725534177,0.08138172312810323,1.0,1.0,False,False,False
+Current FEPL reference,11,4077709,202145,0.9307418537071398,0.9685257907698936,0.7084275545747446,0.024425953143451515,2.0,3.0,False,False,False

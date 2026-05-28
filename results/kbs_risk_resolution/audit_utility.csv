@@ -1,0 +1,2 @@
+model,reviewed_paths_top10,captured_severe_cases,evidence_supported_severe_cases,severe_cases_per_100_reviews,evidence_supported_cases_per_100_reviews,mean_evidence_hit_rate
+SDS-KB,407775,198930,194119,48.7842560235424,47.60443872233462,0.9744620543358219

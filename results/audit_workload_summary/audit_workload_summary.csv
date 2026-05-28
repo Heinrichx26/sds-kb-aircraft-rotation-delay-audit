@@ -1,0 +1,6 @@
+model,reviewed_paths_top10,captured_severe_cases,severe_cases_per_100_reviews,mean_top10_capture,mean_pr_auc,audit_role
+LightGBM path baseline,407775,200200,49.09570228680032,0.9923864344466163,0.9358526990046575,score reference
+Explainable Boosting Machine,407775,196789,48.25921157501073,0.9766290602734969,0.862897896310897,transparent score reference
+FEPL fuzzy path rule model,407775,191083,46.859910489853476,0.9491262011852736,0.7713516044910379,fixed fuzzy rule audit
+Recovery shortfall,407775,189547,46.483232174606094,0.9426708261694309,0.751917725534177,single mechanism reference
+Wang-Mendel fuzzy rule classifier,407775,191475,46.956041934890564,0.9506067756537053,0.8276011630148482,large fuzzy rule reference
